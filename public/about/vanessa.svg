@@ -1,0 +1,44 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Vanessa Zamzow — founder illustration">
+  <!-- Original stylized illustration of the founder, abstracted (no real likeness) -->
+  <defs>
+    <linearGradient id="hairGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B1F36"/>
+      <stop offset="100%" stop-color="#2A1023"/>
+    </linearGradient>
+    <linearGradient id="plumGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5E2A52"/>
+      <stop offset="100%" stop-color="#3B1F36"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background soft circle -->
+  <circle cx="200" cy="220" r="180" fill="#FDF6EC" opacity="0.6"/>
+
+  <!-- Hair -->
+  <path d="M130 200 Q130 140 200 140 Q270 140 270 200 Q270 260 200 280 Q130 260 130 200 Z" fill="url(#hairGrad)"/>
+  <path d="M130 200 Q110 260 200 280 Q290 260 270 200 Q270 140 200 140 Q130 140 130 200 Z" fill="#5E2A52" opacity="0.4"/>
+
+  <!-- Face outline -->
+  <path d="M170 190 Q170 160 200 160 Q230 160 230 190 Q230 250 200 270 Q170 250 170 190 Z" fill="#F3E3C6" stroke="#5E2A52" strokeWidth="2"/>
+
+  <!-- Eyes -->
+  <circle cx="180" cy="205" r="3" fill="#3B1F36"/>
+  <circle cx="220" cy="205" r="3" fill="#3B1F36"/>
+
+  <!-- Smile -->
+  <path d="M185 225 Q200 235 215 225" stroke="#D4A017" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+
+  <!-- Neck -->
+  <path d="M185 270 L185 300 L215 300 L215 270 Z" fill="#F3E3C6"/>
+
+  <!-- Scarf / collar -->
+  <path d="M170 280 Q200 310 230 280 Q230 300 200 320 Q170 300 170 280 Z" fill="#D4A017"/>
+
+  <!-- Shoulders -->
+  <path d="M150 300 Q200 340 250 300 Q250 350 200 360 Q150 350 150 300 Z" fill="#5E2A52" opacity="0.8"/>
+  <path d="M160 310 Q200 345 240 310 Q240 355 200 365 Q160 355 160 310 Z" fill="#D4A017" opacity="0.5"/>
+
+  <!-- Name label -->
+  <text x="200" y="450" font-family="serif" font-size="18" fill="#5E2A52" text-anchor="middle" font-weight="bold">Vanessa Zamzow</text>
+  <text x="200" y="470" font-family="sans-serif" font-size="12" fill="#3B1F36" text-anchor="middle">Founder · SpaceTrack</text>
+</svg>

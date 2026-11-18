@@ -1,0 +1,56 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Luna — Vanessa's cat illustration">
+  <!-- Original stylized cat illustration -->
+  <defs>
+    <linearGradient id="catGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5E2A52"/>
+      <stop offset="100%" stop-color="#3B1F36"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background soft circle -->
+  <circle cx="200" cy="200" r="170" fill="#FDF6EC" opacity="0.5"/>
+
+  <!-- Tail -->
+  <path d="M280 220 Q330 220 340 280 Q330 340 280 340 Q230 340 220 280 Q210 220 280 220" fill="#5E2A52" opacity="0.6" stroke="#D4A017" strokeWidth="2"/>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="240" rx="60" ry="45" fill="url(#catGrad)"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="160" r="50" fill="#5E2A52"/>
+
+  <!-- Ears -->
+  <path d="M160 130 L145 90 L175 120 Z" fill="#3B1F36" stroke="#D4A017" strokeWidth="2"/>
+  <path d="M240 130 L255 90 L225 120 Z" fill="#3B1F36" stroke="#D4A017" strokeWidth="2"/>
+
+  <!-- Inner ears -->
+  <path d="M162 125 L155 105 L168 118 Z" fill="#D4A017"/>
+  <path d="M238 125 L245 105 L232 118 Z" fill="#D4A017"/>
+
+  <!-- Eyes -->
+  <circle cx="180" cy="155" r="5" fill="#FDF6EC"/>
+  <circle cx="220" cy="155" r="5" fill="#FDF6EC"/>
+  <circle cx="180" cy="155" r="2" fill="#3B1F36"/>
+  <circle cx="220" cy="155" r="2" fill="#3B1F36"/>
+
+  <!-- Nose -->
+  <circle cx="200" cy="170" r="4" fill="#D4A017"/>
+
+  <!-- Mouth -->
+  <path d="M192 176 Q200 182 208 176" stroke="#3B1F36" strokeWidth="2" strokeLinecap="round" fill="none"/>
+
+  <!-- Whiskers -->
+  <path d="M160 170 L130 168 M160 176 L125 178 M160 182 L130 186" stroke="#3B1F36" strokeWidth="1" strokeLinecap="round"/>
+  <path d="M240 170 L270 168 M240 176 L275 178 M240 182 L270 186" stroke="#3B1F36" strokeWidth="1" strokeLinecap="round"/>
+
+  <!-- Collar -->
+  <ellipse cx="200" cy="190" rx="42" ry="8" fill="none" stroke="#D4A017" strokeWidth="3"/>
+
+  <!-- Tag -->
+  <circle cx="200" cy="202" r="6" fill="#FDF6EC" stroke="#5E2A52" strokeWidth="2"/>
+  <text x="200" y="206" font-family="sans-serif" font-size="8" fill="#5E2A52" text-anchor="middle">L</text>
+
+  <!-- Name label -->
+  <text x="200" y="360" font-family="serif" font-size="18" fill="#5E2A52" text-anchor="middle" font-weight="bold">Luna</text>
+  <text x="200" y="380" font-family="sans-serif" font-size="12" fill="#3B1F36" text-anchor="middle">Beloved cat · SpaceTrack inspiration</text>
+</svg>
