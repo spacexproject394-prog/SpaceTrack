@@ -86,20 +86,30 @@ export default function DashboardPage() {
             Concept / Prototype
           </span>
         </div>
-        <div className="flex items-center gap-3">
-          <label htmlFor="reporting-mode" className="text-sm text-muted">
-            Reporting
-          </label>
-          <select
-            id="reporting-mode"
-            value={reportingMode}
-            onChange={(e) => setReportingMode(e.target.value)}
-            className="rounded-md border border-border bg-white px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-          >
-            <option value="live">Live</option>
-            <option value="adaptive">Adaptive</option>
-            <option value="eco">Eco</option>
-          </select>
+        <div className="flex flex-wrap items-center gap-3">
+          <nav className="flex items-center gap-2 text-sm">
+            <Link href="/about" className="rounded-md px-3 py-1.5 text-muted hover:bg-primary/10 hover:text-primary">
+              About
+            </Link>
+            <Link href="/auth/register-implant" className="rounded-md px-3 py-1.5 text-muted hover:bg-primary/10 hover:text-primary">
+              Register Implant
+            </Link>
+          </nav>
+          <div className="flex items-center gap-2">
+            <label htmlFor="reporting-mode" className="text-sm text-muted">
+              Reporting
+            </label>
+            <select
+              id="reporting-mode"
+              value={reportingMode}
+              onChange={(e) => setReportingMode(e.target.value)}
+              className="rounded-md border border-border bg-white px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+            >
+              <option value="live">Live</option>
+              <option value="adaptive">Adaptive</option>
+              <option value="eco">Eco</option>
+            </select>
+          </div>
         </div>
       </header>
 
